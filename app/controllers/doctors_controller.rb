@@ -8,5 +8,5 @@ class DoctorsController < ApplicationController
     @doctor = Doctor.find_by_id(params[:id])
   end
 
-  
+
 end
