@@ -4,7 +4,9 @@ class DoctorsController < ApplicationController
     @doctors = Doctor.all
   end
 
-  def show 
+  def show
     @doctor = Doctor.find_by(params[:id])
   end
+
+  
 end
